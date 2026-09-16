@@ -36,7 +36,7 @@ This evidence map uses abbreviated topic labels and section locations. It identi
 | 18a–b | Funding and interests | Declarations | Author fields remain to be completed. |
 | 18c | Protocol | S4; archived protocols | Local initial protocol and amendments retained; no invented public registration. |
 | 18d | Registration | Archived protocols | Local protocol and amendments are archived; no public registration identifier is claimed. |
-| 18e–f | Data and code | Declarations; supplementary files | Code and aggregates accompany the article; a GitHub upload package is prepared. Institutional contact, repository URL and reuse licence require author completion. |
+| 18e–f | Data and code | Declarations; supplementary files | Code and aggregates accompany the article; a GitHub upload package is prepared. The public repository is https://github.com/8426-ztc/Supporting_files; restricted-data requests go through the corresponding author, subject to institutional approval. No reuse licence has been assigned. |
 | 19 | Patient/public involvement | Author completion | Not documented in supplied sources; no absence or involvement invented. |
 | 20a | Flow | 2.2; 3.1; Figure 1; S1 | 2395 screened, 193 reviewed, 27 excluded, 166 retained. |
 | 20b–c | Cohort characteristics | 3.1; Tables 1 and S1 | Per-centre distributions, outcomes and missingness reported. |

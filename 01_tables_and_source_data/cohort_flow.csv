@@ -1,7 +1,0 @@
-step,n_remaining,n_excluded_at_step
-raw_sheet_rows,193,0.0
-exclude_missing_center,193,0.0
-exclude_missing_pathological_necrosis,166,27.0
-exclude_unparseable_pathological_necrosis,166,0.0
-development_center_yz,109,
-external_center_zy,57,

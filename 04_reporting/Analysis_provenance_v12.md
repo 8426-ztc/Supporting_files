@@ -16,7 +16,7 @@ The primary LLM quantity is the mean of 20 run-specific AUROCs. The AUROC of pro
 
 The standalone ExtraTrees AUROC interval uses 1,000 patient-level bootstrap resamples. Original LLM and LLM-versus-logistic intervals use 1,000 hierarchical outcome-stratified resamples. The integrated LLM-versus-ExtraTrees intervals use 10,000 paired hierarchical outcome-stratified resamples. Marginal intervals recalculated during the integration need not equal the standalone intervals and are not substituted for the designated headline intervals.
 
-`Manuscript_key_estimates_v12.csv` identifies the source and reporting role of each interval. Its values are copied from archived aggregate results; no model or statistical analysis was rerun to create it. The conventional headline AUROC display of 0.667 is retained consistently with the existing figures; its source value is 0.6675.
+The headline ExtraTrees estimate and interval are in `01_tables_and_source_data/PRIMARY_REPORT_OOF_AND_EXTERNAL_AUC.csv`; the paired comparison is in `01_tables_and_source_data/ML_LLM_PAIRED_METRICS_SUMMARY_20260831_v1.csv`. The v18 manuscript and Figure 2 use the source AUROC of 0.6675. No model or statistical analysis was rerun for this documentation correction.
 
 ## Meaning of audit
 
