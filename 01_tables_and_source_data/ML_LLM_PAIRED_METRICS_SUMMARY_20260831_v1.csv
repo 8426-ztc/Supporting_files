@@ -1,0 +1,11 @@
+﻿estimand,estimate,ci_low,ci_high,orientation,analysis_role
+ExtraTrees AUROC,0.6675,0.51875,0.80625,higher is better,locked comparator
+Mean 20-shot LLM AUROC,0.6517812500000001,0.5171164062500001,0.77706328125,higher is better,prespecified primary LLM
+Paired delta AUROC: LLM minus ExtraTrees,-0.015718749999999893,-0.0709687499999998,0.038314062499999954,positive favours LLM,primary paired contrast
+ExtraTrees Brier,0.2300257945152338,0.20362414231422862,0.25847566846132236,lower is better,locked comparator
+Mean 20-shot LLM Brier,0.2531670149122808,0.20145188057017543,0.3092221863596491,lower is better,secondary probability quality
+Brier improvement: ExtraTrees minus LLM,-0.02314122039704697,-0.05548808187596887,0.005610917199951082,positive favours LLM,secondary paired contrast
+Replicate-averaged LLM AUROC,0.66625,,,higher is better,descriptive patient-level display only
+Replicate-averaged LLM Brier,0.22707061609649118,,,lower is better,descriptive patient-level display only
+Spearman probability correlation,0.961174487943998,,,descriptive,descriptive patient-level agreement
+Threshold classification disagreement count,4.0,,,descriptive count,descriptive patient-level agreement

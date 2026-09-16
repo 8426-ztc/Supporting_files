@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "prompt_payload_file_sha256": "f2d205522755f5d4bc7940ca7d07481ecd6adee23c58cc6e453203b327f5f84b",
+  "conditions": 122,
+  "queries_per_condition": 166,
+  "total_requested_predictions": 20252,
+  "shot_schedule": {
+    "0": 1,
+    "4": 20,
+    "8": 20,
+    "10": 20,
+    "20": 20,
+    "40": 20,
+    "80": 20,
+    "109": 1
+  },
+  "system_prompt_variants": 1,
+  "user_prompt_variants": 122,
+  "executed_prompt_variants": 122,
+  "unlabeled_query_label_exposure_violations": 0,
+  "patient_values_exported_to_public_manifest": false,
+  "patient_identifiers_exported_to_public_manifest": false,
+  "failures": []
+}

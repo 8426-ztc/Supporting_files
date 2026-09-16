@@ -1,0 +1,3 @@
+context,type,group,feature_a,feature_b,association,kept,dropped,rule
+full_development_final_model,conceptual_group,stage_system,bclc,cnlc_major,,bclc,cnlc_major,lower_missingness_then_prespecified_clinical_preference
+full_development_final_model,conceptual_group,vascular_invasion,vtt_any,pvtt_any,,vtt_any,pvtt_any,lower_missingness_then_prespecified_clinical_preference

@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "workbookPath": "D:\\gpt\\outputs\\mpr90_publication_run_20260829_v3_batched\\MPR90_Frozen_Experiment_Results.xlsx",
+  "requiredSheets": [
+    "Overview",
+    "Audit",
+    "0",
+    "4",
+    "8",
+    "10",
+    "20",
+    "40",
+    "80",
+    "109"
+  ],
+  "rowChecks": [
+    {
+      "shot": 0,
+      "predictionRows": 166,
+      "orderedIdsMatch": true
+    },
+    {
+      "shot": 4,
+      "predictionRows": 3320,
+      "orderedIdsMatch": true
+    },
+    {
+      "shot": 8,
+      "predictionRows": 3320,
+      "orderedIdsMatch": true
+    },
+    {
+      "shot": 10,
+      "predictionRows": 3320,
+      "orderedIdsMatch": true
+    },
+    {
+      "shot": 20,
+      "predictionRows": 3320,
+      "orderedIdsMatch": true
+    },
+    {
+      "shot": 40,
+      "predictionRows": 3320,
+      "orderedIdsMatch": true
+    },
+    {
+      "shot": 80,
+      "predictionRows": 3320,
+      "orderedIdsMatch": true
+    },
+    {
+      "shot": 109,
+      "predictionRows": 166,
+      "orderedIdsMatch": true
+    }
+  ],
+  "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["predictions"],
+  "properties": {
+    "predictions": {
+      "type": "array",
+      "minItems": 166,
+      "maxItems": 166,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "pred_label", "prob_mpr90"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[DV]-[0-9a-f]{16}$"
+          },
+          "pred_label": {
+            "type": "integer",
+            "enum": [0, 1]
+          },
+          "prob_mpr90": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    }
+  }
+}

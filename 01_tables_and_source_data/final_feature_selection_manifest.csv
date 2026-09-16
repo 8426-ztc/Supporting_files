@@ -1,0 +1,21 @@
+feature,feature_label,selected_final,selection_frequency,mean_selected_rank,full_development_RF_RFE_selected,full_development_RF_RFE_grouped_MDI_importance,effective_df_cost,stability_threshold_met,fallback_due_to_too_few_stable_features
+tumorsizeb,Baseline tumor size,True,1.0,1.6,True,0.27053335009313445,1,True,False
+log1p_tbil,log(1+total bilirubin),True,0.96,3.0,True,0.1971020724198107,1,True,False
+log1p_ast,log(1+AST),True,0.92,1.7391304347826086,True,0.2673941041966555,1,True,False
+bmi,BMI,True,0.8,3.45,True,0.15796113509588983,1,True,False
+alb,Albumin,False,0.16,3.5,True,0.10700933819450954,1,False,False
+log1p_siib,log(1+baseline SII),False,0.08,3.5,False,0.05445483209243978,1,False,False
+log1p_wbcb,log(1+baseline WBC),False,0.04,4.0,False,0.08438367301065655,1,False,False
+log1p_pt,log(1+PT),False,0.04,4.0,False,0.027203298599322474,1,False,False
+log1p_afpb,log(1+baseline AFP),False,0.0,,False,0.06262605846460192,1,False,False
+age,Age,False,0.0,,False,0.045628093989633474,1,False,False
+log1p_alt,log(1+ALT),False,0.0,,False,0.04241266113358141,1,False,False
+log1p_nlrb,log(1+baseline NLR),False,0.0,,False,0.042116714131154184,1,False,False
+log1p_crp,log(1+CRP),False,0.0,,False,0.031369229518545094,1,False,False
+vtt_any,Any vascular tumor thrombus,False,0.0,,False,0.018114015791624333,2,False,False
+bclc,BCLC stage,False,0.0,,False,0.01474379731254045,3,False,False
+immunotherapy_any,Immunotherapy exposure,False,0.0,,False,0.008435557372387829,1,False,False
+tumornum_count,Tumor number,False,0.0,,False,0.004793928587705351,1,False,False
+targeted_any,Targeted therapy exposure,False,0.0,,False,0.0018823308313493806,1,False,False
+gender,Sex,False,0.0,,False,0.0010628701484763077,1,False,False
+child_score,Child-Pugh score,False,0.0,,False,0.0,1,False,False

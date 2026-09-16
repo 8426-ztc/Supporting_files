@@ -1,0 +1,2 @@
+source_feature,n_rows,raw_nonmissing,parsed_nonmissing,invalid_to_missing,repaired_duplicate_decimal,parsed_percent,parsed_numeric_substring
+mpr,166,166,166,0,0,0,0

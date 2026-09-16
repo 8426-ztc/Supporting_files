@@ -1,0 +1,2 @@
+# Paired-comparison source
+These are the historical source scripts underlying the frozen paired comparison and Figure 4. They were not rerun for manuscript revision. Execution requires the approved patient-level inputs, matching Python dependencies and adaptation of the original local path constants. Plotting audit helpers are environment dependencies. This archive supplies methodological source, not a self-contained executable environment. Do not treat path adaptation as permission to access restricted data.

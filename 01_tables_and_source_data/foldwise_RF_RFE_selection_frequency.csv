@@ -1,0 +1,29 @@
+feature,feature_label,selected_fold_n,total_outer_folds,selection_frequency,mean_selected_rank,median_selected_rank,mean_RF_RFE_grouped_MDI_importance,feature_df_cost_mode
+tumorsizeb,Baseline tumor size,25,25,1.0,1.6,2.0,0.3037919085821009,1.0
+log1p_tbil,log(1+total bilirubin),24,25,0.96,3.0,3.0,0.21035177510952544,1.0
+log1p_ast,log(1+AST),23,25,0.92,1.7391304347826086,2.0,0.29460604134468715,1.0
+bmi,BMI,20,25,0.8,3.45,4.0,0.17129646574469543,1.0
+alb,Albumin,4,25,0.16,3.5,3.5,0.09601396987980276,1.0
+log1p_siib,log(1+baseline SII),2,25,0.08,3.5,3.5,0.06036662874921559,1.0
+log1p_wbcb,log(1+baseline WBC),1,25,0.04,4.0,4.0,0.06891231877952614,1.0
+log1p_pt,log(1+PT),1,25,0.04,4.0,4.0,0.03567527382401673,1.0
+age,Age,0,25,0.0,,,0.05341544087882147,1.0
+log1p_nlrb,log(1+baseline NLR),0,25,0.0,,,0.05332129811899014,1.0
+log1p_afpb,log(1+baseline AFP),0,25,0.0,,,0.051158927409900225,1.0
+log1p_alt,log(1+ALT),0,25,0.0,,,0.050864892286586326,1.0
+log1p_crp,log(1+CRP),0,25,0.0,,,0.023414977167651868,1.0
+vtt_any,Any vascular tumor thrombus,0,25,0.0,,,0.014310589581744857,2.0
+bclc,BCLC stage,0,25,0.0,,,0.00827033347557678,3.0
+immunotherapy_any,Immunotherapy exposure,0,25,0.0,,,0.006033584585410879,1.0
+tacecycles,TACE cycles before prediction,0,25,0.0,,,0.0052360790225477296,1.0
+tumornum_count,Tumor number,0,25,0.0,,,0.004284420068150932,1.0
+targeted_any,Targeted therapy exposure,0,25,0.0,,,0.00155597117346014,1.0
+gender,Sex,0,25,0.0,,,0.0007908239230686822,1.0
+child_score,Child-Pugh score,0,25,0.0,,,5.33193047710224e-05,1.0
+ccr_any,Clinical complete response,0,25,0.0,,,,
+cnlc_major,CNLC stage,0,25,0.0,,,,
+ecog,ECOG performance status,0,25,0.0,,,,
+log1p_pivka_b,log(1+baseline PIVKA-II/DCP),0,25,0.0,,,,
+mrecist_response,mRECIST response,0,25,0.0,,,,
+pvtt_any,PVTT,0,25,0.0,,,,
+rcr_any,Radiological complete response,0,25,0.0,,,,

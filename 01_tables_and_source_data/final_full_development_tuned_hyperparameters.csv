@@ -1,0 +1,10 @@
+model,inner_CV_best_AUC_full_development,best_params_json,final_features,final_effective_df
+RidgeLogistic,0.7340070643642073,"{""model__C"": 0.01}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+ElasticNetLogistic,0.7459772370486656,"{""model__C"": 0.3, ""model__l1_ratio"": 0.25}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+SVM_RBF,0.7719780219780219,"{""model__C"": 0.1, ""model__gamma"": 0.1}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+RandomForest,0.7366562009419152,"{""model__max_depth"": 2, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 8}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+ExtraTrees,0.7551020408163266,"{""model__max_depth"": 4, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 4}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+HistGradientBoosting,0.7494113029827316,"{""model__l2_regularization"": 0.0, ""model__learning_rate"": 0.03, ""model__max_leaf_nodes"": 7, ""model__min_samples_leaf"": 15}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+XGBoost,0.7205651491365777,"{""model__colsample_bytree"": 0.8, ""model__learning_rate"": 0.08, ""model__max_depth"": 2, ""model__min_child_weight"": 3, ""model__n_estimators"": 150, ""model__reg_lambda"": 10.0, ""model__subsample"": 0.8}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+LightGBM,0.7848802982731553,"{""model__learning_rate"": 0.03, ""model__max_depth"": 3, ""model__min_child_samples"": 15, ""model__n_estimators"": 300, ""model__num_leaves"": 3, ""model__reg_lambda"": 3.0}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4
+CatBoost,0.764030612244898,"{""model__depth"": 2, ""model__iterations"": 400, ""model__l2_leaf_reg"": 5.0, ""model__learning_rate"": 0.03}",tumorsizeb|log1p_tbil|log1p_ast|bmi,4

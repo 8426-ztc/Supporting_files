@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-29T13:25:22.744289+00:00",
+  "rounds_verified": 122,
+  "patient_outputs_expected": 20252,
+  "development_queries_per_round": 109,
+  "validation_queries_per_round": 57,
+  "validation_label_exposure": 0,
+  "query_label_leakage": 0,
+  "rounds_by_shot": {
+    "0": 1,
+    "4": 20,
+    "8": 20,
+    "10": 20,
+    "20": 20,
+    "40": 20,
+    "80": 20,
+    "109": 1
+  },
+  "development_label_exposed_outputs_by_shot": {
+    "0": 0,
+    "4": 80,
+    "8": 160,
+    "10": 200,
+    "20": 400,
+    "40": 800,
+    "80": 1600,
+    "109": 109
+  },
+  "design_boundary": "cohort-batched transductive inference",
+  "audit_code_sha256": "6de501fad5c11e424ee348159fb439e2056d6491ba14ffaf6a5d710bc42f3d08",
+  "manifest_sha256": "fdc3e3c964fce6a742ff6652921e65eeb4ed5d8c0ebc14ca1e0fe19589c7fe38",
+  "privacy_note": "Aggregate counts and hashes only; validation outcomes not read."
+}

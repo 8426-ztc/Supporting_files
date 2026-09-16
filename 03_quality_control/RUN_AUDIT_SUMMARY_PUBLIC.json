@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE_AND_UNBLINDED_AFTER_FREEZE",
+  "design": "outcome-blind cohort-batched transductive inference",
+  "completed_rounds": 122,
+  "patient_level_outputs": 20252,
+  "development_patients": 109,
+  "validation_patients": 57,
+  "validation_positive": 25,
+  "validation_negative": 32,
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "ephemeral_sessions": true,
+  "provider_sampling_seed_supported": false,
+  "forbidden_tool_events": 0,
+  "failed_attempt_records": 16,
+  "raw_responses_verified": 122,
+  "round_output_files_verified": 122,
+  "validation_outcomes_accessed_during_inference": false,
+  "validation_truth_first_access_utc": "2026-08-31T02:18:46.057265+00:00",
+  "decision_threshold": 0.5,
+  "bootstrap_replicates": 1000,
+  "execution_epochs": [
+    {
+      "epoch": 1,
+      "codex_version": "codex-cli 0.150.0-alpha.12.2",
+      "runner_sha256": "42b3a8a615f387c315ef2ba38a496efc5f0de42180f5960d065fa68bc1c6abff"
+    },
+    {
+      "epoch": 2,
+      "codex_version": "codex-cli 0.151.0-alpha.7.1",
+      "runner_sha256": "9dc4d11b83887d1cd453686d036f28b31ba55c9d5a429d9630cbdee0907bb20c",
+      "addendum_sha256": "8d297f65a74ad5b0e4acfce09cfa721d5197eed968cb6be86e44d109ee4c1cce"
+    },
+    {
+      "epoch": 3,
+      "codex_version": "codex-cli 0.151.0-alpha.7.2",
+      "runner_sha256": "9e3ef31c4db9c0727723ebb4b245f888cfc5b106e566b5e0e7ae7397a5d15f06",
+      "timeout_seconds": 1800,
+      "max_attempts": 2,
+      "addendum_sha256": "b82bb1f33a647d8e71f9b10469aa290335f4007e367b51aea25f457e8bf269ea"
+    }
+  ],
+  "prompts_sha256": "f2d205522755f5d4bc7940ca7d07481ecd6adee23c58cc6e453203b327f5f84b",
+  "predictions_sha256": "eb0867a017ad8d9577fc46e9d4e305927dcc1f9a7fd26bcbab9c70461c9598a6",
+  "prediction_freeze_sha256": "c34f11db8b3cc0a5ce21db9cdc59763a146b496c2b55bdd902fa34ac300e7a90",
+  "unblinding_record_sha256": "2f1e1237254cb830cead12607be14bde2ae568a7ca9a924908a73b6d43028b38",
+  "final_inference_audit_sha256": "c90408927c3657064899aa9290d7c54259c608a35c18fa47a964b5b454bab4b8",
+  "privacy": "aggregate counts and hashes only; no raw identifiers, patient-level values, continuous MPR, status or RFS"
+}

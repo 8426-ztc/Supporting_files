@@ -1,0 +1,12 @@
+{
+  "timestamp_utc": "2026-08-31T02:18:46.057265+00:00",
+  "event": "FIRST_AND_ONLY_VALIDATION_UNBLINDING",
+  "predictions_sha256": "eb0867a017ad8d9577fc46e9d4e305927dcc1f9a7fd26bcbab9c70461c9598a6",
+  "prediction_freeze_sha256": "c34f11db8b3cc0a5ce21db9cdc59763a146b496c2b55bdd902fa34ac300e7a90",
+  "validation_ground_truth_sha256": "f4bb83ba584ac8319854908759065b280318c2e021e3b0b04860b0f8934e0fe0",
+  "development_ground_truth_sha256": "82a872e2be95c538f30eb414ef3988c499159a49fe9b319cf5b3090df047513b",
+  "completed_rounds": 122,
+  "patient_outputs": 20252,
+  "forbidden_tool_events": 0,
+  "evaluation_code_sha256": "8bcd11d0219d2c4baf5fc6b4f1b0f91272abf1fdec07ed022474f07c489746f2"
+}

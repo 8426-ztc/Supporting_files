@@ -1,0 +1,39 @@
+{
+  "positive_n": 55,
+  "negative_n": 54,
+  "positive_event_budget": 5,
+  "minority_class_budget": 5,
+  "raw_effective_df_budget": 5,
+  "effective_df_budget": 5,
+  "epv_rule_satisfied": true,
+  "selector_method": "nested_stable_random_forest_recursive_feature_elimination",
+  "final_stability_frequency_threshold": 0.6,
+  "selected_raw_feature_n": 4,
+  "selected_effective_df": 4,
+  "selected_features": [
+    "tumorsizeb",
+    "log1p_tbil",
+    "log1p_ast",
+    "bmi"
+  ],
+  "fallback_features_below_stability_threshold": [],
+  "full_development_RF_RFE_selected_features": [
+    "tumorsizeb",
+    "log1p_ast",
+    "log1p_tbil",
+    "bmi",
+    "alb"
+  ],
+  "full_development_RF_selector_details": {
+    "selector_method": "nested_deterministic_RF_RFE_grouped_MDI_with_outer_fold_stability_lock",
+    "rf_selector_best_params": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 8
+    },
+    "rf_selector_inner_CV_AUC": 0.698559670781893,
+    "epv_df_budget": 5,
+    "selected_raw_feature_n": 5,
+    "selected_effective_df": 5
+  }
+}
