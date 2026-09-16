@@ -14,12 +14,10 @@ This compact release accompanies manuscript versions. It provides executed code,
 
 Read `01_tables_and_source_data/README.md` and `04_reporting/Analysis_provenance_v12.md` before interpreting results. Detailed clinical tables and figures accompany the article. No additional clinical data are implied by the folder name source_data.
 
-## 🚀 Reproducibility 
-All data and results can be traced via the SHA256 manifest.
+## Reproducibility 
+All data and results can be traced via the SHA256 manifest.Code and aggregates support methodological inspection and aggregate consistency checks. Refitting models or recomputing patient-level metrics requires approved inputs not distributed here. Historical scripts may refer to the original local directory layout; they are archived research source, not a turnkey installation. Hosted-model responses are not guaranteed to regenerate exactly. Figure-generation helpers mentioned in historical code readmes are retained in the journal package, not this compact release.
 
-## Reproducibility and access
-
-Code and aggregates support methodological inspection and aggregate consistency checks. Refitting models or recomputing patient-level metrics requires approved inputs not distributed here. Historical scripts may refer to the original local directory layout; they are archived research source, not a turnkey installation. Hosted-model responses are not guaranteed to regenerate exactly. Figure-generation helpers mentioned in historical code readmes are retained in the journal package, not this compact release.
+## access
 
 Patient-level data, predictions and instantiated prompts are restricted because they contain sensitive human-participant information. Qualified researchers may contact the corresponding author listed on the manuscript title page; access remains subject to institutional approval, an appropriate ethics determination and a data-use agreement. No unrestricted data-access commitment or reuse licence is implied.
 
