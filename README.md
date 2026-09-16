@@ -4,7 +4,7 @@ Repository: https://github.com/8426-ztc/Supporting_files
 
 This compact release accompanies manuscript versions. It provides executed code, a patient-free prompt template, selected aggregate results and non-identifying execution records. It contains no patient-level clinical dataset, patient-level predictions, instantiated prompts, linkage key or figure files.
 
-## Contents
+## 📁 Directory Structure 
 
 - `01_tables_and_source_data`: 11 aggregate result/configuration files and an interpretation guide, covering the headline estimates, all nine conventional models, demonstration budgets, run variation and the paired comparison.
 - `02_code_and_prompts`: conventional modelling, LLM inference/evaluation and paired-analysis source, prompt template, condition manifest and adaptation guidance. Figure-only and publication-packaging utilities are omitted.
@@ -13,6 +13,9 @@ This compact release accompanies manuscript versions. It provides executed code,
 - `MANIFEST_SHA256.csv` and `verify_package.py`: byte-level release integrity verification.
 
 Read `01_tables_and_source_data/README.md` and `04_reporting/Analysis_provenance_v12.md` before interpreting results. Detailed clinical tables and figures accompany the article. No additional clinical data are implied by the folder name source_data.
+
+## 🚀 Reproducibility 
+All data and results can be traced via the SHA256 manifest.
 
 ## Reproducibility and access
 
@@ -25,3 +28,6 @@ Patient-level data, predictions and instantiated prompts are restricted because 
 The conventional modelling script retains its frozen SHA-256: `1f3c5ef4604c933ca59d1c9385b6ce63a8580a9663efbb9234dff1b68b8ca95b`. Historical hashes in protocols identify archived analysis artifacts, including restricted artifacts; the root manifest identifies files actually distributed in this release. `.gitattributes` disables automatic text conversion to preserve these bytes. Run `python verify_package.py` after downloading or cloning the release.
 
 This release changes documentation and distribution scope only; model results are unchanged. It is intended to replace the previous repository tree, not to be merged on top of it while leaving superseded files in place.
+
+
+
