@@ -23,7 +23,7 @@ Patient-level data, predictions and instantiated prompts are restricted because 
 
 ## Integrity
 
-The conventional modelling script retains its frozen SHA-256: `1f3c5ef4604c933ca59d1c9385b6ce63a8580a9663efbb9234dff1b68b8ca95b`. Historical hashes in protocols identify archived analysis artifacts, including restricted artifacts; the root manifest identifies files actually distributed in this release. `.gitattributes` disables automatic text conversion to preserve these bytes. Run `python verify_package.py` after downloading or cloning the release.
+The conventional modelling script retains its frozen SHA-256: 1f3c5ef4604c933ca59d1c9385b6ce63a8580a9663efbb9234dff1b68b8ca95b. Historical hashes in protocols identify archived analysis artifacts, including restricted artifacts; the root manifest identifies files actually distributed in this release. `.gitattributes` disables automatic text conversion to preserve these bytes. Run `python verify_package.py` after downloading or cloning the release.
 
 This release changes documentation and distribution scope only; model results are unchanged. It is intended to replace the previous repository tree, not to be merged on top of it while leaving superseded files in place.
 
