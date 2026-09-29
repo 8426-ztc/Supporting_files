@@ -1,50 +1,58 @@
 # TRIPOD+AI reporting cross-reference
 
-This evidence map uses abbreviated topic labels and section locations. It identifies partial or unavailable reporting explicitly; it is not a certification of complete adherence. The official checklist remains the reference for submission. Source: https://www.tripod-statement.org/wp-content/uploads/2024/04/TRIPODAI-Supplement.pdf
+This evidence map corresponds to Online Resource 2 of manuscript v25. Concise topic labels identify the relevant manuscript locations and unresolved reporting gaps; the map is not a certification of complete adherence. Source: https://www.tripod-statement.org/wp-content/uploads/2024/04/TRIPODAI-Supplement.pdf
 
 | Item | Topic | Location | Evidence or remaining gap |
 |---|---|---|---|
 | 1 | Title | Title | Target, prediction task and evaluation identified. |
 | 2 | Abstract | Abstract | Design, sample sizes, prespecified LLM condition, secondary ExtraTrees comparison and uncertainty reported. |
-| 3a–b | Context and users | Introduction; S6 | Offline preoperative research setting; clinical deployment not tested. |
-| 3c | Health inequalities | S6 | Group representativeness limited; no dedicated inequality investigation. |
+| 3a | Clinical rationale | Introduction | Clinical context, existing prediction approaches and rationale for external evaluation are described. |
+| 3b | Intended population and users | Introduction; Online Resource 1, Appendix A | Preoperative response assessment for multidisciplinary teams is the intended context. Clinical deployment was not evaluated. |
+| 3c | Health inequalities | Limitations; Online Resource 1, Appendix A | Health inequalities were not specifically investigated; cohort representativeness and untested subgroups are identified as limitations. |
 | 4 | Objectives | Introduction, final paragraph | Conventional development and external LLM evaluation. |
-| 5a | Data source | 2.1; S1; S6 | Two retrospective institutional cohorts. |
-| 5b | Dates | 2.1; S6 | Years 2018–2024 reported; exact accrual dates not supplied. |
-| 6a | Setting | 2.1 | Two named centres and countries/cities. |
-| 6b | Eligibility | 2.2; S1; Table S2 | 27 recorded retrospective exclusions reconciled in Table S2; these are clinical screening decisions, not a prospective eligibility protocol. |
-| 6c | Treatment | 2.4; 3.1; Table 1 | Centre-specific exposure; inputs not uniformly treatment-naïve. |
-| 7 | Preparation | 2.5–2.6; S2–S3 | Training-only preprocessing; no group-specific preprocessing audit. |
-| 8a | Outcome | 2.4; S1 | Necrosis ≥90% from surgical pathology; patient-level label. |
-| 8b | Outcome assessors | 2.4 | Professional pathologists; exact assessor numbers and demographics not supplied. |
-| 8c | Outcome blinding | 2.4; 2.8; 3.6 | External-label access during inference audited. Blinding of original pathology readers to clinical measurements not established. |
-| 9a | Predictor candidates | 2.4; S2; Table S1 | Candidate dictionary and fold-local selection supplied. |
-| 9b | Predictor definitions | 2.4; S3; Table S1 | Same earliest-available preoperative record rule at both centres; prior therapy allowed; exact measurement windows not established. |
-| 9c | Predictor assessors | 2.4 | Qualifications of original tumour-diameter assessors not supplied. |
-| 10 | Study size | 2.2; 2.6; Discussion | Available retained cohort; no formal precision/power calculation. |
-| 11 | Missingness | 2.2; 2.5; S1; Table S1 | Exclusion flag distinguished from clinical decisions; training-derived imputation. |
-| 12a–c | Model development | 2.6; S2 | Site split, tuning, selection, transformations and internal evaluation described. |
-| 12d | Clustering | 2.1; 3.1 | Site-separated evaluation; no multi-cluster random-effects model. |
-| 12e | Evaluation measures | 2.7–2.10; Figures 2–4 | Discrimination, probability error and calibration; paired performance differences with confidence intervals. |
-| 12f | Updating | 2.6; S6 | No external recalibration or refitting. |
-| 12g | Prediction procedure | 2.6; 2.8–2.10; S7; S2–S4 | Locked conventional preprocessing and hosted cohort-batched inference. |
-| 13 | Class balance | S3; archived source | Label-balanced intermediate demonstrations; natural full-pool composition. Conventional settings preserved in source. |
-| 14 | Fairness | Discussion; S6 | Not evaluated; no fairness claim. |
-| 15 | Outputs | 2.6; 2.8; S4 | Probabilities; thresholds 0.490142 and 0.500. |
-| 16 | Between-centre differences | 2.4; 3.1; Table 1 | Case-mix and treatment differences acknowledged; a common baseline definition does not imply identical measurement windows. |
-| 17 | Ethics | Declarations; 2.3 (data protection) | Committee, approval 2026140, multicentre scope and consent waiver are reported from author confirmation. |
-| 18a–b | Funding and interests | Declarations | Author fields remain to be completed. |
-| 18c | Protocol | S4; archived protocols | Local initial protocol and amendments retained; no invented public registration. |
-| 18d | Registration | Archived protocols | Local protocol and amendments are archived; no public registration identifier is claimed. |
-| 18e–f | Data and code | Declarations; supplementary files | Code and aggregates accompany the article; a GitHub upload package is prepared. The public repository is https://github.com/8426-ztc/Supporting_files; restricted-data requests go through the corresponding author, subject to institutional approval. No reuse licence has been assigned. |
-| 19 | Patient/public involvement | Author completion | Not documented in supplied sources; no absence or involvement invented. |
-| 20a | Flow | 2.2; 3.1; Figure 1; S1 | 2395 screened, 193 reviewed, 27 excluded, 166 retained. |
-| 20b–c | Cohort characteristics | 3.1; Tables 1 and S1 | Per-centre distributions, outcomes and missingness reported. |
-| 21 | Analysis sample sizes | 2.6; 2.8; 3.1; source tables | Development 109/55 positive; external 57/25; round-specific evaluable counts in source. |
-| 22 | Model specification | 2.6; S2–S4; S6; code | Detailed source supplied; full independent regeneration needs approved inputs. No portable hosted snapshot. |
-| 23a | Performance | 3.2–3.5; Figures 2–4 | Primary estimates and intervals reported; subgroup metrics not evaluated. |
-| 23b | Performance heterogeneity | 3.1; Discussion | No additional multicentre heterogeneity analysis. |
-| 24 | Model updating results | S6 | Not applicable: models not updated on external data. |
+| 5a | Data source | Study design and participants; Limitations | Two retrospective institutional cohorts; selection of surgical patients limits representativeness. |
+| 5b | Dates | Study design and participants | Surgery dates were 26 December 2017 to 27 December 2024; exact predictor measurement windows were not established. |
+| 6a | Setting | Study design and participants | Two named centres and countries/cities. |
+| 6b | Eligibility | Study design and participants; Online Resource 1, Table S1 | 27 recorded retrospective exclusions reconciled in Online Resource 1, Table S1; these are clinical screening decisions |
+| 6c | Treatment | Outcome and candidate predictors; Study population and between-centre heterogeneity; Table 1 | Centre-specific exposure; inputs not uniformly treatment-naïve. |
+| 7 | Preparation | Missing data handling and cohort comparisons; ML model development and locking; Online Resource 1, Supplementary Methods 1–2 | Training-only preprocessing; no group-specific preprocessing audit. |
+| 8a | Outcome | Outcome and candidate predictors; Online Resource 1, Table S1 | Necrosis ≥90% from surgical pathology; patient-level label. |
+| 8b | Outcome assessors | Outcome and candidate predictors | Pathologists assessed resection specimens. Assessor numbers and demographic characteristics were not reported. |
+| 8c | Outcome blinding | Outcome and candidate predictors; Limitations | Blinding of the original pathology readers to predictor information was not established. Outcome blinding during model inference is a separate procedure. |
+| 9a | Predictor candidates | Outcome and candidate predictors; Online Resource 1, Supplementary Methods 1; Online Resource 1, Table S2 | Candidate dictionary and fold-local selection supplied. |
+| 9b | Predictor definitions | Outcome and candidate predictors; Online Resource 1, Supplementary Methods 2; Online Resource 1, Table S2 | Same earliest-available preoperative record rule at both centres; prior therapy allowed; exact measurement windows not established. |
+| 9c | Predictor assessors | Outcome and candidate predictors | Qualifications and demographic characteristics of the original tumour-diameter assessors were not reported. |
+| 10 | Study size | Study design and participants; ML model development and locking; Discussion | Available retained cohort; no formal precision/power calculation. |
+| 11 | Missingness | Study design and participants; Missing data handling and cohort comparisons; Online Resource 1, Table S1; Online Resource 1, Table S2 | Exclusion flag distinguished from clinical decisions; training-derived imputation. |
+| 12a | Data partitioning | Study design and participants; ML model development and locking | One centre supplied development data and the other external validation data; repeated nested cross-validation was restricted to development data. |
+| 12b | Predictor handling | Outcome and candidate predictors; Missing data handling and cohort comparisons; Online Resource 1, Supplementary Methods 1–2; Online Resource 1, Table S2 | Clinical units, transformations, training-derived imputation and LLM input construction are described. |
+| 12c | Model development | ML model development and locking; Online Resource 1, Supplementary Methods 1 | Nine algorithms, fold-local feature selection, hyperparameter tuning, internal evaluation and the development-only selection rule are described. |
+| 12d | Clustering | Study design and participants; Study population and between-centre heterogeneity | Site-separated evaluation; no multi-cluster random-effects model. |
+| 12e | Evaluation measures | ML model performance; LLM experiment; Paired comparisons with ML models; Statistical analysis and reproducibility; Figures 2–4 | Discrimination, probability error and calibration; paired performance differences with confidence intervals. |
+| 12f | Updating | ML model development and locking; Online Resource 1, Supplementary Methods 4 | No external recalibration or model refitting was performed. |
+| 12g | Prediction procedure | ML model development and locking; LLM experiment; Paired comparisons with ML models; Statistical analysis and reproducibility; Online Resource 1, Supplementary Methods 4; Online Resource 1, Supplementary Methods 1–3 | Locked conventional preprocessing and hosted cohort-batched inference. |
+| 13 | Class balance | Online Resource 1, Supplementary Methods 2; archived source | Label-balanced intermediate demonstrations; natural full-pool composition. Conventional settings preserved in source. |
+| 14 | Fairness | Discussion; Limitations | Not evaluated; no fairness claim. |
+| 15 | Outputs | ML model development and locking; LLM experiment; Online Resource 1, Supplementary Methods 3 | Probabilities; thresholds 0.49 and 0.500. |
+| 16 | Between-centre differences | Outcome and candidate predictors; Study population and between-centre heterogeneity; Table 1 | Case-mix and treatment differences acknowledged; a common baseline definition does not imply identical measurement windows. |
+| 17 | Ethics | Ethics approval; Data protection | Committee, approval 25-005/0005, dated 23 January 2025; the approving committee belongs to the development institution. |
+| 18a | Funding | Funding | Funding sources and grant numbers are reported; funder roles were not reported. |
+| 18b | Competing interests | Competing interests | The manuscript reports no competing interests. |
+| 18c | Protocol | Online Resource 1, Supplementary Methods 3–4; supporting repository, 03_quality_control/archived_protocols | The dated local protocol and its amendments are publicly available; the executed design is distinguished from the earlier pilot. |
+| 18d | Registration | Online Resource 1, Supplementary Methods 4 | The local analysis plan documents specification before external-outcome access; no public registration identifier is reported. |
+| 18e | Data access | Data availability; Online Resource 1, Table S2; supporting repository | Selected aggregate results are public. Individual-level data are restricted and may be requested from the corresponding author subject to institutional and ethics approval and an appropriate agreement. |
+| 18f | Code access | Code and prompt availability; Statistical analysis and reproducibility; supporting repository | Analysis code, prompt templates and software versions are public. Patient-level inputs are required for reanalysis. The repository does not specify a reuse licence. |
+| 19 | Patient/public involvement | Not reported | Patient and public involvement was not reported. |
+| 20a | Flow | Study design and participants; Study population and between-centre heterogeneity; Figure 1; Online Resource 1, Table S1 | 2395 screened, 193 reviewed, 27 excluded, 166 retained. |
+| 20b | Cohort characteristics | Study population and between-centre heterogeneity; Table 1; Online Resource 1, Table S2 | Sample sizes, outcome counts, treatment exposure and predictor distributions are reported by centre; variable-level missingness is provided in Table S2. |
+| 20c | Development–validation comparison | Study population and between-centre heterogeneity; Table 1; Online Resource 1, Table S2 | Development and external validation distributions are presented side by side; between-centre differences are described. |
+| 21 | Analysis sample sizes | ML model development and locking; LLM experiment; Study population and between-centre heterogeneity; source tables | Development 109/55 positive; external 57/25; round-specific evaluable counts in source. |
+| 22 | Model specification | ML model development and locking; LLM experiment; Online Resource 1, Supplementary Methods 1–4; Code and prompt availability | Algorithms, tuned settings, prompts and source code are supplied. Refitting requires restricted inputs, and an immutable hosted-model snapshot is unavailable. |
+| 23a | Performance | ML model selection and external performance; LLM performance and repeatability across demonstration budgets; Paired external comparisons with ML models; Figures 2–4 | Primary estimates and intervals reported; subgroup metrics not evaluated. |
+| 23b | Performance heterogeneity | Study population and between-centre heterogeneity; Discussion | No additional multicentre heterogeneity analysis. |
+| 24 | Model updating results | ML model development and locking; Online Resource 1, Supplementary Methods 4 | Not applicable. Models were not updated using external validation data. |
 | 25 | Interpretation | Discussion | Paired differences do not establish advantage or equivalence. |
-| 26 | Limitations | Discussion; S1; S6 | Selection, timing, sample size, calibration and cohort-batched limitations visible. |
-| 27a–c | Use and next validation | Discussion; S6 | Input checks, patient-wise evaluation and workflow monitoring are future requirements, not implemented controls. |
+| 26 | Limitations | Limitations; Online Resource 1, Table S1 | Selection, timing, sample size, calibration and cohort-batched limitations visible. |
+| 27a | Input quality in clinical use | Discussion; Online Resource 1, Appendix A | Input checks and handling of unavailable measurements are identified as requirements for future implementation; prospective performance of these safeguards was not evaluated. |
+| 27b | User interaction and expertise | Discussion; Online Resource 1, Appendix A | Intended use by multidisciplinary clinical teams is described. User training requirements and interaction with a clinical interface were not evaluated. |
+| 27c | Further evaluation | Discussion; Limitations | Larger external cohorts, patient-wise evaluation and workflow monitoring are proposed before clinical use. |

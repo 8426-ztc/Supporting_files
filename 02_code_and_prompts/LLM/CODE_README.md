@@ -17,5 +17,5 @@ The public code and prompt template can reproduce the workflow structure, but ex
 
 ## Data required for an authorized rerun
 
-An authorized rerun requires the four pre-treatment variables, study-specific pseudonyms and binary development labels. Validation labels must remain outside all prompt/operator files until predictions are complete and frozen. Do not reconstruct or release the raw identifier mapping or pseudonymization key in the public repository.
+An authorized rerun requires the four preoperative variables, study-specific pseudonyms and binary development labels. The manuscript uses the earliest available preoperative record rule; the archived prompt retains its historical wording. Predictor timing relative to therapy must be documented for any new evaluation. Validation labels must remain outside all prompt/operator files until predictions are complete and frozen. Do not reconstruct or release the raw identifier mapping or pseudonymization key in the public repository.
 

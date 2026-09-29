@@ -1,6 +1,6 @@
 # Adapting the prompt and evaluation workflow to a new clinical task
 
-This guide accompanies the executed prompt template in Supplementary Section S3. It describes a proposed adaptation workflow, not an experiment performed in the present study. Keep the original executed prompt unchanged as the record of the HCC benchmark and save any adaptation as a new version.
+This guide accompanies the executed prompt template in Online Resource 1, Supplementary Methods 2. It describes a proposed adaptation workflow, not an experiment performed in the present study. Keep the original executed prompt unchanged as the record of the HCC benchmark and save any adaptation as a new version.
 
 ## Define the task before writing the prompt
 
@@ -31,4 +31,4 @@ Record the prompt version, available model identifier and settings, sampled demo
 
 Evaluate discrimination, probability accuracy, calibration and variability across runs in the new validation data. Mean run-specific AUROC and AUROC of averaged patient probabilities answer different questions; define the intended target. Reusing a prompt structure does not establish transfer of its measured performance, nor guarantee exact regeneration of a hosted-model response. Clinical use requires validation in the intended setting and the relevant institutional data-use permissions.
 
-The present revision provides editable research materials. Repository deposition remains pending in the manuscript availability statement; this guide does not claim that a public repository has already been published.
+The public supporting repository provides analysis code, the patient-free prompt template and selected aggregate results. Patient-level inputs and predictions remain restricted under the access conditions stated in the manuscript.
